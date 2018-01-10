@@ -3326,8 +3326,8 @@ th {
     /*display: hidden;*/
     background-size: cover;
     height: 41px;
-    /* position: fixed;
-    top: 0; */
+    position: fixed;
+    top: 0;
     width: 100%;
   }
 
@@ -3336,6 +3336,7 @@ th {
   }
 
   .midHead {
+    margin-top: 41px;
     height: 49px;
   }
 
@@ -3883,7 +3884,7 @@ th {
    text-transform: none;
    font-family: Lato;
    letter-spacing: 1px;
-   font-size: 18px;
+   font-size: 26px;
    font-weight: lighter;
    padding-left: 48px;
    color: white;
@@ -3977,6 +3978,7 @@ th {
   .section.open .articlewrap {
     height: fit-content;
     color: white;
+    margin-top: -10px;
   }
   .articlewrap {
     height: 0;
@@ -4003,6 +4005,13 @@ th {
   }
   .article:last-child {
     margin-bottom: 12px;
+  }
+  .topHead{
+    position: fixed;
+    height: 110px;
+  }
+  .midHead {
+    margin-top: 110px;
   }
 }
 /***************************MOBILE END*********************/
